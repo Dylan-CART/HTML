@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+
+section{
+    border: 5px solid #FF8C22;
+
+}
+article{
+    border: 5px solid orangered;
+
+}
+
+    
+body {background-color: #b9b9b9
+}
+
+ul {flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none ;
+  font-size: 17px;
+}
+
+/* change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* add a color to the active/current link */
+.topnav a.active {
+  background-color: #FF8C22;
+  color: rgb(0, 0, 0);
+}
+.expo {display: flex;
+justify-content: space-around;
+
+}
+.logo { display: flex;
+  justify-content: space-around;
+  max-width: 100% ;
+  font-size: 18px;
+  color: white; 
+  background-color: #333;
+  overflow: hidden;
+  align-content: space-around;
+}
+.rules {display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: space-around;
+
+
+}
+.about {display: flex;
+  flex-direction: row;
+flex-wrap: wrap;}

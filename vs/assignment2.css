@@ -1,0 +1,43 @@
+#outerbox
+{
+width: 600px;
+overflow: hidden;
+}
+#sliderbox{
+
+position: relative;
+width: 3000px;
+animation-name:steve;
+animation-duration: 10s;
+animation-iteration-count:infinite;
+}
+
+#sliderbox img{
+float: left;
+}
+@keyframes steve {
+0%
+{
+    left: 0px;
+    left: 0px;}
+    25%
+    {
+    left: -600px;
+    left: -600px;
+    }
+    50%
+    {
+    left: -1200px;
+    left: -1200px ;
+    }
+    75%
+    {
+    left: -1800px;
+    left: -1800px;
+    }
+    100%
+    {
+    left: -2400px;
+    left: -2400px;
+    }
+}
