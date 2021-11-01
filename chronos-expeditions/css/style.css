@@ -66,6 +66,5 @@ align-content: space-around;
 
 
 }
-.about {display: flex;
-  flex-direction: row;
-flex-wrap: wrap;}
+.about {text-size-adjust: 20;
+}
